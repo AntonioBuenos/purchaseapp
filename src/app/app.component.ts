@@ -54,16 +54,7 @@ class Item {
         </tbody>
       </table>
     </div>`,
-  styles: [`
-    h1, h2 {
-      color: green;
-    }
-
-    p {
-      font-size: 13px;
-      font-family: "Informal Roman", fantasy;
-    }
-  `]
+  styleUrls: ['./app.component.css']
 })
 export class AppComponent {
   text: string = "";
